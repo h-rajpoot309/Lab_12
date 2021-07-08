@@ -1,0 +1,11 @@
+package tes;
+import java.util.Scanner;
+public class Yahya {
+public static void main ( String [] args) {
+	
+	Scanner myobj = new Scanner(System.in);
+    System.out.println("Ënter the name");
+    String myobj2 = myobj.nextLine();
+    System.out.println("string is" + myobj2);
+}
+}

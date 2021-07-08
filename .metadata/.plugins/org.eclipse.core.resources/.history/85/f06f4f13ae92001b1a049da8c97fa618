@@ -1,0 +1,21 @@
+package test;
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n1 =1000;
+		int n3=2000;
+		int sum=n1+n3;
+		System.out.println("sum of two numbers is " +sum );
+		String first_name = "sam";
+		String last = " currran";
+		String fullname = first_name + last;
+		System.out.println("full name is "+fullname);
+		Scanner input = new Scanner(System.in);
+		int number;
+		number = input.nextInt(number);
+		System.out.println("user entered number is "+number);
+	}
+
+}

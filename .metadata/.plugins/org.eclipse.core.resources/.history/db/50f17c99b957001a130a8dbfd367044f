@@ -1,0 +1,23 @@
+package tes;
+import java.util.Scanner;
+public class Yahya {
+	
+	public static void checkage(int age) {
+		
+		if ( age<18)
+		{
+		System.out.println("ÿou are younger");
+		}
+		else 
+		{	
+			System.out.println("you are older");
+		}
+		
+		
+	}
+	
+public static void main (String [] args) {
+	
+	checkage(17);
+}
+}

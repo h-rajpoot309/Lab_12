@@ -1,0 +1,20 @@
+package rajpoot;
+import java.io.FileWriter;
+import java.io.IOException;
+public class Rajpoot {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try 
+		{
+			FileWriter fileWriter=new FileWriter("Rajpoot.txt");
+			fileWriter.write("BINOD");
+			fileWriter.close();
+		}
+		catch(IOException e)
+		{
+			System.out.println("An error occured");
+			e.printStackTrace();
+		}
+	}
+}
